@@ -7,13 +7,20 @@ En este repo se encuentra el script de la tarea 2, el cuál tiene el objetivo de
 - xlsx
 Con la finalidad de extraer su metadata y mostrarla en consola.
 
-Para ejecutar el script:
+Requisitos previos:
+- Tener Python 3 instalado.
+- Tener pip y venv instalado. 
+
+Para instalar el script (es necesario):
 ```
 // Ingresar a la carpeta ráiz del repositorio
 cd cs-tarea-2
 // Instalar dependencias
 python -m venv .env && source .env/bin/activate && pip install -r requirements.txt
-// Ejecutar el script
+```
+
+Para ejecutar el script:
+```
 python main.py RUTA_DIRECTORIO
 ```
 
